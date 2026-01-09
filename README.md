@@ -18,8 +18,17 @@ langgraph dockerfile    生成一个 dockerfile, 可用于 LangGraph API 服务�
 langgraph up    本地 Docker 容器中启动一个 LangGraph API 服务器实例。这要求 Docker 服务器在本地运行。本地开发需要 LangSmith API 密钥
 
 
-
-
 从 new-langgraph-project-python 模板或 new-langgraph-project-js 模板创建一个新应用。
 *** 如果未使用 langgraph new 命令时未指定模板，将显示交互式菜单
 langgraph new path/to/app --temp new-langgraph-project-python
+
+
+进入项目目录并生成 demo 项目：
+```
+D:\projs\test\python\LangGraphProj>langgraph new langraph_demo
+```
+
+进入demo目录并安装需要的包
+```
+D:\projs\test\python\LangGraphProj\langraph_demo>pip install -e .
+```
