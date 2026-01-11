@@ -59,3 +59,22 @@ For more advanced features and examples, refer to the [LangGraph documentation](
 
 LangGraph Studio also integrates with [LangSmith](https://smith.langchain.com/) for more in-depth tracing and collaboration with teammates, allowing you to analyze and optimize your chatbot's performance.
 
+## 相关命令
+安装 LangGraph SDK
+```pip install langgraph-sdk```
+
+本地部署时 最好只使用一种本地部署库， 如  sglang 和 vllm， 他们的倚赖库不兼容
+
+
+大模型提供商：
+恒源云
+百练
+closeai
+zhipuai(bigmodel.cn)
+
+
+AgentState 4 种类型:
+system message
+tool message
+ai message
+human message
